@@ -19,7 +19,7 @@ const Portfolio = () => {
       description: "A modernImaginarium is a web application that allows users to create and interact with unique AI-powered characters. Craft intricate character profiles, define their personalities, and engage in dynamic conversations. Unleash your creativity and build a world of your own! web application built with React and Node.js",
       technologies: ["React", "Node.js","Express", "MongoDB",  "Firebase (Authentication)", "Gemini API"],
       github: "https://github.com/omerabbace/Imaginarium.git",
-      image: "/1.PNG"
+      image: "/portfolio/1.PNG"
 
     },
     {
@@ -27,28 +27,28 @@ const Portfolio = () => {
       description: "CommuniCare is a comprehensive platform designed to bridge the gap between individuals needing assistance and those capable of providing it. The platform offers features like financial aid, healthcare, food, shelter support, community issue reporting, volunteer engagement, and charity contributions.This project leverages the MERN stack and other modern tools to deliver a seamless experience across web and mobile platforms.",
       technologies: ["React Native","React Js (Admin Panel)", "Node.js","Express", "MongoDB",  "Firebase","Stripe", "openrouteservice", "openstreetmap" ],
       github: "https://github.com/yourusername/project3",
-      image: "/4.png"
+      image: "/portfolio/4.png"
     },
     {
       title: "Game Auction",
       description: "RetroGame Auctions is a web-based platform dedicated to video game enthusiasts, offering a place to auction and bid on physical media for retro games like PS1, PS2, and Wii titles. This project is built using HTML, CSS, and JavaScript, adhering to best coding practices and techniques.The platform allows users to start auctions, visitors to place bids, and auction creators to connect with the most appealing bidder.",
       technologies: ["HTML5", "CSS3","JavaScript", "SQL"],
       github: "https://github.com/omerabbace/GameAuction",
-      image: "/3.png"
+      image: "/portfolio/3.png"
     },
     {
       title: "Link Shortener",
       description: "Link Shortener is a web application that allows users to shorten long URLs into simple, shareable links. Built using the MERN stack (MongoDB, Express, React, Node.js), this project offers a seamless, user-friendly experience for generating, managing, and tracking shortened URLs",
       technologies: ["React", "Node.js","Express", "MongoDB"],
       github: "https://github.com/omerabbace/Link-shortner",
-      image: "/2.png"
+      image: "/portfolio/2.png"
     },
     {
       title: "Gym Management",
       description: "The Gym Management System is a web-based application designed to help gym owners manage their operations efficiently. Built with Bootstrap for the frontend and vanilla PHP for the backend, this project provides essential features like member management, payment tracking, and class scheduling in a simple and user-friendly interface.",
       technologies: ["Bootstrap", "Php","SQL", "Javascript", "CSS"],
       github: "https://github.com/omerabbace/Gym-management",
-      image: "/5.png"
+      image: "/portfolio/5.png"
     },
 
   ];
@@ -113,7 +113,7 @@ const Portfolio = () => {
             </div>
             <div className="md:w-1/2 flex justify-center">
               <img 
-                src={"/profile1.jpg"}
+                src={"/portfolio/profile1.jpg"}
                 alt="Profile" 
                 className="rounded-full w-64 h-64 object-cover shadow-lg"
               />
